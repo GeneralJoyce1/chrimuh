@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>A Christmas Message</title>
+
+<style>
+/* =========================
+   GLOBAL
+   ========================= */
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #7a1e1e 0%, #3b0d0d 60%, #260808 100%);
+  font-family: "Georgia", "Times New Roman", serif;
+  color: #3b1f14;
+}
+
+/* =========================
+   SCROLL CONTAINER
+   ========================= */
+.scroll {
+  max-width: 900px;
+  margin: 60px auto;
+  background: linear-gradient(#fdf3dc, #f8e7c3);
+  box-shadow:
+    0 0 0 6px #d2b48c,
+    0 30px 80px rgba(0,0,0,0.6);
+  position: relative;
+  padding-bottom: 80px;
+}
+
+/* Scroll curls */
+.scroll::before,
+.scroll::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background: radial-gradient(circle at center, #e8d1a1 0%, #d4b483 70%);
+}
+
+.scroll::before {
+  top: -40px;
+  border-radius: 0 0 100% 100%;
+}
+
+.scroll::after {
+  bottom: -40px;
+  border-radius: 100% 100% 0 0;
+}
+
+/* =========================
+   DECOR HEADER SLOT
+   ========================= */
+.decor-header {
+  width: 100%;
+  text-align: center;
+  padding: 30px 20px 10px;
+  border-bottom: 4px double rgba(123, 30, 30, 0.4);
+}
+
+/* Example placeholder styling */
+.decor-placeholder {
+  font-size: 1.1rem;
+  color: #7b1e1e;
+  letter-spacing: 1px;
+  padding: 30px 0;
+  opacity: 0.8;
+}
+
+/* =========================
+   CONTENT
+   ========================= */
+.content {
+  padding: 60px 40px 0;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  color: #7b1e1e;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+.content p {
+  font-size: clamp(1.15rem, 2.3vw, 1.45rem);
+  line-height: 1.9;
+  margin: 0 auto 24px;
+  max-width: 700px;
+}
+
+/* =========================
+   FOOTER ORNAMENT
+   ========================= */
+.footer-ornament {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #8b4513;
+}
+</style>
+</head>
+
+<body>
+
+<div class="scroll">
+
+  <!-- =====================
+       DECOR HEADER SLOT
+       Replace everything inside this div
+       ===================== -->
+  <header class="decor-header">
+
+    <!-- EXAMPLE PLACEHOLDER -->
+    <div class="decor-placeholder">
+      <img src="C:\Users\HP\Desktop\Books and papers\Class 10\chrimuh\e1-removebg-preview.png" alt="Christmas Header">
+    </div>
+
+    <!--
+      You can replace this section with:
+      - <img src="header.png" alt="Christmas Header">
+      - Inline SVG
+      - Another HTML decoration
+      - Even an embedded animation
+    -->
+
+  </header>
+
+  <!-- =====================
+       SCROLL CONTENT
+       ===================== -->
+  <div class="content">
+    <h1>A gift for my bestie</h1>
+
+    <p>
+      Merry Chrimuh!
+    </p>
+
+    <p>
+      I reallyyy wanted to gift my bestie a Christmas gift but alas we don't seem to be meeting anytime soon so thought might make you this instead.
+    </p>
+
+    <p>
+     Its been over a year since we've been friends now, and these times, although there were ups and downs, became much more bearable. I never really understood platonic love and all that but seriously, you've made me realise that soul mates are not always relationship wise.
+    </p>
+
+     <p>
+    Thank you for coming into my life a year ago, for actually making me smile and laugh, for understanding and being my truest supporter. I really appreciate you, really I do.
+    </p>
+
+    <p>
+    What I really wanted to do was write down one thing i like about you each day for a year, and so, here are 365 things I love about you:-
+    </p>
+
+<ol>
+  <li>You are incredibly accommodating.</li>
+  <li>You are wonderfully accountable.</li>
+  <li>You are deeply adaptable.</li>
+  <li>You are truly adept.</li>
+  <li>You are remarkably admirable.</li>
+  <li>You are genuinely adored.</li>
+  <li>You are fantastically adventurous.</li>
+  <li>You are delightfully affable.</li>
+  <li>You are incredibly affectionate.</li>
+  <li>You are wonderfully agreeable.</li>
+  <li>You are exceptionally alert.</li>
+  <li>You are my true ally.</li>
+  <li>You are incredibly altruistic.</li>
+  <li>You are amazing.</li>
+  <li>You are remarkably ambitious.</li>
+  <li>You are genuinely amiable.</li>
+  <li>You are delightfully amicable.</li>
+  <li>You are an angel in disguise.</li>
+  <li>You are wonderfully appreciative.</li>
+  <li>You are incredibly articulate.</li>
+  <li>You are a true artist.</li>
+  <li>You are remarkably assertive.</li>
+  <li>You are wonderfully astonishing.</li>
+  <li>You are genuinely astounding.</li>
+  <li>You are deeply astute.</li>
+  <li>You are incredibly attentive.</li>
+  <li>You are a real attraction.</li>
+  <li>You are authentic.</li>
+  <li>You are exceptionally awesome.</li>
+  <li>You are a ballast in rough seas.</li>
+  <li>You are incredibly beaming.</li>
+  <li>You are exceptionally beautiful (inside & outside).</li>
+  <li>You are a real believer.</li>
+  <li>You are remarkably benevolent.</li>
+  <li>You are a blessing.</li>
+  <li>You are genuinely blissful.</li>
+  <li>You are fantastically bold.</li>
+  <li>You are a boon to all your friends.</li>
+  <li>You are wonderfully brave.</li>
+  <li>You are incredibly bright.</li>
+  <li>You are truly brilliant.</li>
+  <li>You are remarkably bubbly.</li>
+  <li>You are a bundle of joy.</li>
+  <li>You are wonderfully calm.</li>
+  <li>You are incredibly candid.</li>
+  <li>You are a true captain.</li>
+  <li>You are remarkably caring.</li>
+  <li>You are genuinely celebrated.</li>
+  <li>You are a champion.</li>
+  <li>You are fantastically charismatic.</li>
+  <li>You are a true charmer.</li>
+  <li>You are wonderfully charming.</li>
+  <li>You are incredibly cheerful.</li>
+  <li>You are a cherub of kindness.</li>
+  <li>You are remarkably chic.</li>
+  <li>You are a real cool person.</li>
+  <li>You are wonderfully civil.</li>
+  <li>You are incredibly classy.</li>
+  <li>You are a clear thinker.</li>
+  <li>You are genuinely clever.</li>
+  <li>You are extremely comforting.</li>
+  <li>You are a comfort to all.</li>
+  <li>You are incredibly commendable.</li>
+  <li>You are a real companion.</li>
+  <li>You are wonderfully compassionate.</li>
+  <li>You are exceptionally competent.</li>
+  <li>You are truly composed.</li>
+  <li>You are remarkably concerned.</li>
+  <li>You are my one true confidant.</li>
+  <li>You are incredibly congenial.</li>
+  <li>You are a conscience for others.</li>
+  <li>You are genuinely considerate.</li>
+  <li>You are deeply consistent.</li>
+  <li>You are a constant star.</li>
+  <li>You are incredibly constructive.</li>
+  <li>You are contagious with joy.</li>
+  <li>You are a contribution to every room or place.</li>
+  <li>You are remarkably cool.</li>
+  <li>You are genuinely cooperative.</li>
+  <li>You are the cornerstone of my life.</li>
+  <li>You are fantastically courageous.</li>
+  <li>You are a courtesy expert.</li>
+  <li>You are incredibly creative.</li>
+  <li>You are a creator of good times.</li>
+  <li>You are remarkably credible.</li>
+  <li>You are my crown jewel.</li>
+  <li>You are genuinely curious.</li>
+  <li>You are an amazing chef.</li>
+  <li>You are delightfully daring.</li>
+  <li>You are a darling person.</li>
+  <li>You are incredibly dazzling.</li>
+  <li>You are my dearest friend.</li>
+  <li>You are wonderfully decent.</li>
+  <li>You are truly dedicated.</li>
+  <li>You are a defender of good.</li>
+  <li>You are remarkably deft.</li>
+  <li>You are a delight to know.</li>
+  <li>You are incredibly dependable.</li>
+  <li>You are a depth of wisdom.</li>
+  <li>You are genuinely determined.</li>
+  <li>You are a diamond.</li>
+  <li>You are fantastically dignified.</li>
+  <li>You are a diligent soul.</li>
+  <li>You are wonderfully diplomatic.</li>
+  <li>You are incredibly discerning.</li>
+  <li>You are a disciple of kindness.</li>
+  <li>You are remarkably disciplined.</li>
+  <li>You are the best discovery of a person.</li>
+  <li>You are truly distinctive.</li>
+  <li>You are my distinguished friend.</li>
+  <li>You are wonderfully driven.</li>
+  <li>You are incredibly dutiful.</li>
+  <li>You are a dynamic force.</li>
+  <li>You are remarkably eager.</li>
+  <li>You are a eagle-eyed friend.</li>
+  <li>You are wonderfully earnest.</li>
+  <li>You are incredibly easygoing.</li>
+  <li>You are an echo of happiness.</li>
+  <li>You are genuinely effervescent.</li>
+  <li>You are an efficacy expert.</li>
+  <li>You are delightfully effortless.</li>
+  <li>You generate elation.</li>
+  <li>You are wonderfully electric.</li>
+  <li>You are incredibly elegant.</li>
+  <li>You are an elevation to others.</li>
+  <li>You are remarkably eloquent.</li>
+  <li>You are an embodiment of grace and beauty.</li>
+  <li>You are genuinely empathetic.</li>
+  <li>You are empower people.</li>
+  <li>You are enchanting.</li>
+  <li>You are encouraging.</li>
+  <li>You are incredibly endearing.</li>
+  <li>You are remarkably energetic.</li>
+  <li>You are truly engaging.</li>
+  <li>You are a engine of positivity.</li>
+  <li>You are wonderfully enhancing.</li>
+  <li>You are incredibly enlightened.</li>
+  <li>You are an enlivening presence.</li>
+  <li>You are genuinely enthusiastic.</li>
+  <li>You are an epicenter of joy.</li>
+  <li>You are delightfully equitable.</li>
+  <li>You are the essence of goodness.</li>
+  <li>You are essential to my life.</li>
+  <li>You are incredibly esteemed.</li>
+  <li>You are an example to follow.</li>
+  <li>You are a excelsior person.</li>
+  <li>You are truly exceptional.</li>
+  <li>You are a excitement catalyst.</li>
+  <li>You are wonderfully exciting.</li>
+  <li>You are incredibly exemplary.</li>
+  <li>You are a exhilaration.</li>
+  <li>You are genuinely expressive.</li>
+  <li>You are a exquisite friend.</li>
+  <li>You are fantastically extraordinary.</li>
+  <li>You are a facet of brilliance.</li>
+  <li>You are wonderfully fair.</li>
+  <li>You are incredibly faithful.</li>
+  <li>You are a fanfare of fun.</li>
+  <li>You are remarkably fantastic.</li>
+  <li>You are a fascinating soul.</li>
+  <li>You are truly fearless.</li>
+  <li>You are a feast for the soul.</li>
+  <li>You are wonderfully fervent.</li>
+  <li>You are incredibly fiery (in spirit).</li>
+  <li>You are a fine human being.</li>
+  <li>You are genuinely first-class.</li>
+  <li>You are a first-rate friend.</li>
+  <li>You are delightfully flawless in character.</li>
+  <li>You are a flexible thinker.</li>
+  <li>You are wonderfully flourishing.</li>
+  <li>You are incredibly focused.</li>
+  <li>You are a font of wisdom.</li>
+  <li>You are remarkably forceful (for good).</li>
+  <li>You are a force of nature.</li>
+  <li>You are truly forgiving.</li>
+  <li>You are a fortress of support.</li>
+  <li>You are wonderfully forthright.</li>
+  <li>You are incredibly fortuitous to know.</li>
+  <li>You are a fountain of youthfulness.</li>
+  <li>You are genuinely frank.</li>
+  <li>You are fantastically friendly.</li>
+  <li>You are a frolicsome spirit.</li>
+  <li>You are wonderfully fun.</li>
+  <li>You are incredibly fun-loving.</li>
+  <li>You are a funny person.</li>
+  <li>You are remarkably gallant.</li>
+  <li>You are a game-changer.</li>
+  <li>You are truly generous.</li>
+  <li>You are a genesis of great ideas.</li>
+  <li>You are wonderfully genial.</li>
+  <li>You are incredibly genteel.</li>
+  <li>You are a gentle soul.</li>
+  <li>You are genuinely genuine.</li>
+  <li>You are a gem.</li>
+  <li>You are delightfully gifted.</li>
+  <li>You are a giver, not a taker.</li>
+  <li>You are wonderfully giving.</li>
+  <li>You are incredibly gladdening.</li>
+  <li>You are a gleam of hope.</li>
+  <li>You are remarkably gleeful.</li>
+  <li>You are a glimmer of light.</li>
+  <li>You are truly glittering.</li>
+  <li>You are a glorious friend.</li>
+  <li>You are wonderfully glowing.</li>
+  <li>You are incredibly glue for the group.</li>
+  <li>You are a goal-getter.</li>
+  <li>You are genuinely good.</li>
+  <li>You are a good-hearted person.</li>
+  <li>You are fantastically gorgeous.</li>
+  <li>You are a grace to be around.</li>
+  <li>You are wonderfully gracious.</li>
+  <li>You are incredibly grand.</li>
+  <li>You are a grant of happiness.</li>
+  <li>You are remarkably grateful.</li>
+  <li>You are a gratification to know.</li>
+  <li>You are truly great.</li>
+  <li>You are a great-hearted soul.</li>
+  <li>You are wonderfully gregarious.</li>
+  <li>You are incredibly grounded.</li>
+  <li>You are a ground for others.</li>
+  <li>You are genuinely growing.</li>
+  <li>You are a growth mindset champion.</li>
+  <li>You are delightfully guiding.</li>
+  <li>You are a guide.</li>
+  <li>You are wonderfully guileless.</li>
+  <li>You are incredibly gusty (in spirit).</li>
+  <li>You are a halcyon influence.</li>
+  <li>You are remarkably handy (to have around).</li>
+  <li>You are a happiness multiplier.</li>
+  <li>You are truly happy.</li>
+  <li>You are a harbor in a storm.</li>
+  <li>You are wonderfully hardworking.</li>
+  <li>You are incredibly harmonious.</li>
+  <li>You are a harmony creator.</li>
+  <li>You are genuinely hearty.</li>
+  <li>You are a heart of gold.</li>
+  <li>You are fantastically heartwarming.</li>
+  <li>You are a heaven-sent friend.</li>
+  <li>You are wonderfully helpful.</li>
+  <li>You are incredibly heroic.</li>
+  <li>You are a hero in small ways.</li>
+  <li>You are remarkably high-minded.</li>
+  <li>You are a high-spirited person.</li>
+  <li>You are hot as fuck like hello?</li>
+  <li>You are truly hilarious.</li>
+  <li>You are a hilarious jester.</li>
+  <li>You are wonderfully holy (in a good way).</li>
+  <li>You are incredibly honest.</li>
+  <li>You are a honor to know.</li>
+  <li>You are genuinely honorable.</li>
+  <li>You are a hope bringer.</li>
+  <li>You are delightfully hopeful.</li>
+  <li>You are a hospitable soul.</li>
+  <li>You are wonderfully huggable.</li>
+  <li>You are incredibly humane.</li>
+  <li>You are a humanitarian at heart.</li>
+  <li>You are remarkably humble.</li>
+  <li>You are a humor expert.</li>
+  <li>You are truly humorous.</li>
+  <li>You are a hustler (in a positive way).</li>
+  <li>You are wonderfully idealistic.</li>
+  <li>You are incredibly idyllic as a friend.</li>
+  <li>You are a illumination.</li>
+  <li>You are genuinely imaginative.</li>
+  <li>You are a imagination powerhouse.</li>
+  <li>You are fantastically immaculate in character.</li>
+  <li>You are a immense talent.</li>
+  <li>You are wonderfully immutable in loyalty.</li>
+  <li>You are incredibly impartial.</li>
+  <li>You are a impetus for good.</li>
+  <li>You are remarkably important to me.</li>
+  <li>You are a impressive individual.</li>
+  <li>You are truly improving constantly.</li>
+  <li>You are a incentive to be better.</li>
+  <li>You are wonderfully inclusive.</li>
+  <li>You are incredibly indefatigable.</li>
+  <li>You are a independence icon.</li>
+  <li>You are genuinely independent.</li>
+  <li>You are a indispensable friend.</li>
+  <li>You are delightfully individualistic.</li>
+  <li>You are a industrious person.</li>
+  <li>You are wonderfully infallible in support.</li>
+  <li>You are incredibly influential (positively).</li>
+  <li>You are a ingenious problem-solver.</li>
+  <li>You are remarkably ingenuous.</li>
+  <li>You are a inherently good person.</li>
+  <li>You are truly innovative.</li>
+  <li>You are a inquisitive mind.</li>
+  <li>You are wonderfully insightful.</li>
+  <li>You are incredibly inspirational.</li>
+  <li>You are a inspiration.</li>
+  <li>You are genuinely inspiring.</li>
+  <li>You are a instinctively kind person.</li>
+  <li>You are fantastically instrumental.</li>
+  <li>You are a integral part of things.</li>
+  <li>You are wonderfully integrated.</li>
+  <li>You are incredibly integrity-filled.</li>
+  <li>You are a intellectual.</li>
+  <li>You are remarkably intelligent.</li>
+  <li>You are a intense friend (in a good way).</li>
+  <li>You are truly intentional.</li>
+  <li>You are a interactive joy.</li>
+  <li>You are wonderfully interesting.</li>
+  <li>You are incredibly intimate (as a confidant).</li>
+  <li>You are a intrepid soul.</li>
+  <li>You are genuinely intriguing.</li>
+  <li>You are a intuitive person.</li>
+  <li>You are delightfully invaluable.</li>
+  <li>You are a inventive thinker.</li>
+  <li>You are wonderfully invigorating.</li>
+  <li>You are incredibly invincible in spirit.</li>
+  <li>You are a invitation to joy.</li>
+  <li>You are remarkably inviting.</li>
+  <li>You are a iridescent personality.</li>
+  <li>You are truly irreplaceable.</li>
+  <li>You are a irresistible force of good.</li>
+  <li>You are wonderfully jocular.</li>
+  <li>You are incredibly jocund.</li>
+  <li>You are a jovial person.</li>
+  <li>You are genuinely joyful.</li>
+  <li>You are a joy.</li>
+  <li>You are fantastically joyous.</li>
+  <li>You are a jubilant soul.</li>
+  <li>You are wonderfully judicious.</li>
+  <li>You are incredibly just.</li>
+  <li>You are a justice seeker.</li>
+  <li>You are remarkably juvenile in spirit (the fun way).</li>
+  <li>You are a keen observer.</li>
+  <li>You are truly keen-witted.</li>
+  <li>You are a keeper.</li>
+  <li>You are wonderfully key to my happiness.</li>
+  <li>You are incredibly kind.</li>
+  <li>You are a kindhearted person.</li>
+  <li>You are genuinely kindly.</li>
+  <li>You are a kindness warrior.</li>
+  <li>You are delightfully knightly in character.</li>
+  <li>You are a knowing person.</li>
+  <li>You are wonderfully knowledgeable.</li>
+  <li>You are incredibly kooky in the best way.</li>
+  <li>You are a kosher friend (genuine).</li>
+  <li>You are remarkably laid-back.</li>
+  <li>You are a lamp in the darkness.</li>
+  <li>You are truly laudable.</li>
+  <li>You are a laughter maker.</li>
+  <li>You are wonderfully learned.</li>
+  <li>You are incredibly legendary to me.</li>
+  <li>You are a legit amazing person.</li>
+  <li>You are genuinely lenient when it counts.</li>
+  <li>You are a level-headed friend.</li>
+  <li>You are fantastically liberal with your love.</li>
+  <li>You are a liberator from bad moods.</li>
+  <li>You are wonderfully light.</li>
+  <li>You are incredibly light-hearted.</li>
+  <li>You are a lightning bolt of energy.</li>
+  <li>You are remarkably likeable.</li>
+  <li>You are a limelight (you deserve it).</li>
+  <li>You are truly lionhearted.</li>
+  <li>You are a loyal friend.</li>
+  <li>You are open-minded.</li>
+  <li>You are outgoing.</li>
+  <li>You are an outstanding person.</li>
+  <li>You are extremely passionate.</li>
+  <li>You are peaceful.</li>
+  <li>You are incredibly understanding.</li>
+  <li>You love me for who I am.</li>
+</ol>
+
+ <p>
+     I know we've had our highs and lows but I hope that nothing, ever, pulls us apart because you're the only person who I think I can ever trust as much as I do.
+<br>
+I wish you a merry and happy Christmas.
+</br>
+<br>
+-Jihan
+(If you think this is too lovey-dovey, it is because it is, nothing but the best for my Husband)
+</br>
+    </p>
+
+
+  </div>
+
+  <div class="footer-ornament">
+    ❦ ❦ ❦
+  </div>
+
+</div>
+
+</body>
+</html>
