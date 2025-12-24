@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>A Christmas Message</title>
+
+<style>
+/* =========================
+   GLOBAL STYLING
+   ========================= */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #7a1e1e 0%, #3b0d0d 60%, #260808 100%);
+  font-family: "Georgia", "Times New Roman", serif;
+  color: #3b1f14;
+}
+
+/* =========================
+   SCROLL BACKGROUND
+   ========================= */
+.scroll {
+  max-width: 900px;
+  margin: 0 auto;
+  background:
+    linear-gradient(#fdf3dc, #f8e7c3);
+  box-shadow:
+    0 0 0 6px #d2b48c,
+    0 30px 80px rgba(0,0,0,0.6);
+  padding: 0 40px 80px;
+  position: relative;
+}
+
+/* Scroll curls */
+.scroll::before,
+.scroll::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background: radial-gradient(circle at center, #e8d1a1 0%, #d4b483 70%);
+}
+
+.scroll::before {
+  top: -40px;
+  border-radius: 0 0 100% 100%;
+}
+
+.scroll::after {
+  bottom: -40px;
+  border-radius: 100% 100% 0 0;
+}
+
+/* =========================
+   MAXIMALIST TOP DECORATION
+   ========================= */
+.decoration {
+  position: relative;
+  padding: 40px 0 60px;
+  text-align: center;
+}
+
+/* Garland layers */
+.garland {
+  height: 60px;
+  margin: 0 auto;
+  width: 100%;
+  background:
+    repeating-linear-gradient(
+      -45deg,
+      #1f5c3a,
+      #1f5c3a 18px,
+      #2f7d52 18px,
+      #2f7d52 36px
+    );
+  border-radius: 0 0 120px 120px;
+  box-shadow:
+    inset 0 -8px 12px rgba(0,0,0,0.3),
+    0 10px 20px rgba(0,0,0,0.5);
+}
+
+.garland.second {
+  margin-top: -25px;
+  height: 45px;
+  opacity: 0.95;
+}
+
+/* Bows */
+.bows {
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bow {
+  width: 30px;
+  height: 20px;
+  background: #b11212;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+}
+
+.bow::before,
+.bow::after {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background: #d81f1f;
+  border-radius: 50%;
+  top: 1px;
+}
+
+.bow::before { left: -12px; }
+.bow::after  { right: -12px; }
+
+/* Bells */
+.bells {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.bell {
+  width: 22px;
+  height: 22px;
+  background: radial-gradient(circle at top, #ffeaa7, #d4a017);
+  border-radius: 0 0 50% 50%;
+  position: relative;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.4);
+}
+
+.bell::after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4px;
+  height: 4px;
+  background: #5c3b00;
+  border-radius: 50%;
+}
+
+/* =========================
+   SCROLL TEXT
+   ========================= */
+.content {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.content h1 {
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  color: #7b1e1e;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+.content p {
+  font-size: clamp(1.15rem, 2.3vw, 1.45rem);
+  line-height: 1.9;
+  margin: 0 auto 24px;
+  max-width: 700px;
+}
+
+/* =========================
+   FOOTER ORNAMENT
+   ========================= */
+.footer-ornament {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #8b4513;
+}
+</style>
+</head>
+
+<body>
+
+<div class="scroll">
+
+  <!-- DECORATION -->
+  <div class="decoration">
+    <div class="garland"></div>
+    <div class="garland second"></div>
+
+    <div class="bows">
+      <div class="bow"></div>
+      <div class="bow"></div>
+      <div class="bow"></div>
+      <div class="bow"></div>
+    </div>
+
+    <div class="bells">
+      <div class="bell"></div>
+      <div class="bell"></div>
+      <div class="bell"></div>
+    </div>
+  </div>
+
+  <!-- SCROLL CONTENT -->
+  <div class="content">
+    <h1>Yuletide Greetings</h1>
+
+    <p>
+      As the winter nights grow long and the world glows softly with candlelight,
+      may this season wrap you in warmth and wonder.
+    </p>
+
+    <p>
+      May laughter echo through your halls, may kindness sit beside you at every
+      table, and may joy find you in the quiet moments as well as the merry ones.
+    </p>
+
+    <p>
+      From hearth to heart, this message travels with love,
+      wishing you a Christmas rich with tradition, generosity,
+      and the simple magic of being together.
+    </p>
+  </div>
+
+  <div class="footer-ornament">
+    ❦ ❦ ❦
+  </div>
+
+</div>
+
+</body>
+</html>
